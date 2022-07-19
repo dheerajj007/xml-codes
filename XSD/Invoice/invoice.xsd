@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="invoice">
+<xs:complexType>
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="1" name="dept"
+type="deptType"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:complexType name="deptType">
+<xs:sequence>
+<xs:element name="deptnum" type="xs:string"/>
+<xs:element name="deptname" type="xs:string"/>
+<xs:element name="deptaddress" type="xs:string"/>
+<xs:element name="deptlimit" type="xs:integer"/>
+<xs:element maxOccurs="unbounded" minOccurs="1" name="deptstatement"
+type="accountType"/> </xs:sequence>
+</xs:complexType>
+<xs:complexType name="accountType">
+<xs:sequence>
+<xs:element name="accountid" type="xs:integer"/>
+<xs:element name="accountdate" type="xs:date"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="accountcharge" type="chargeType"/>
+</xs:sequence></xs:complexType>
+<xs:complexType name="chargeType">
+<xs:sequence>
+<xs:element name="chargeid" type="xs:string"/>
+<xs:element name="chargeamount" type="xs:decimal"/>
+<xs:element name="chargedate" type="xs:date"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

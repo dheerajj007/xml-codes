@@ -1,0 +1,20 @@
+<addresses>
+<address>
+<city>Hull</city>
+<street>Low</street>
+<postCode>HU6 7RX</postCode>
+</address>
+</addresses>
+<addresses>
+<address>
+<city>Hull</city>
+<street
+>Low</street>
+<postCode>HU6 7RX</postCode>
+</address>
+<address>
+<street>High</street>
+<city>Hull</city>
+<postCode>HU1 2ER</postCode>
+</address>
+</addresses>

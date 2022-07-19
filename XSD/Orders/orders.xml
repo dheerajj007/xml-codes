@@ -1,0 +1,16 @@
+<orders>
+<orderItem>
+<item>washer</item>
+<code>4352</code>
+<quantity>100</quantity>
+<cost>23.6</cost>
+</orderItem>
+<orderItem>
+<item>nut</item>
+<code>43
+72</code>
+<quantity>100</quantity>
+<cost>55.6</cost>
+</orderItem>
+<customer>Acme Engineering</customer><totalCost>79.12</totalCost>
+</orders>

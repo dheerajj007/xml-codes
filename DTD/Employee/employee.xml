@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employee_Info SYSTEM "employeeType.dtd" [
+<!ENTITY cse "Computer Science Engineering"> ]> <!-- declaring entity "cse"-->
+<Employee_Info>
+  <Employee Employee_Number="1">
+    <Name>Micky</Name>
+    <Department>&cse;</Department>
+    <Email>micky404@gmail.com</Email>
+    <Telephone>234567</Telephone>
+    <Mobile>+917863836372</Mobile>
+  </Employee>
+  <Employee Employee_Number="2">
+    <Name>James</Name>
+    <Department>Mechanical</Department>
+    <Email>james404@gmail.com</Email>
+    <Telephone>274567</Telephone>
+    <Mobile>+918963836372</Mobile>
+  </Employee>
+</Employee_Info>

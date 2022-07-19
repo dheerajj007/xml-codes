@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Employee_Info (Employee+)>
+<!ELEMENT Employee (Name, Department, Email, Telephone, Mobile)>
+<!ELEMENT Name (#PCDATA)><!ELEMENT Department (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Telephone (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ATTLIST Employee Employee_Number ID #REQUIRED>
